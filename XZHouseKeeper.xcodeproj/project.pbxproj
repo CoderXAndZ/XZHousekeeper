@@ -7,12 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840E1EE220298B190008A374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1EE120298B190008A374 /* AppDelegate.swift */; };
-		840E1EE420298B190008A374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1EE320298B190008A374 /* ViewController.swift */; };
-		840E1EE720298B190008A374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E1EE520298B190008A374 /* Main.storyboard */; };
 		840E1EE920298B190008A374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E1EE820298B190008A374 /* Assets.xcassets */; };
-		840E1EEC20298B190008A374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E1EEA20298B190008A374 /* LaunchScreen.storyboard */; };
 		840E1EF720298B190008A374 /* XZHouseKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1EF620298B190008A374 /* XZHouseKeeperTests.swift */; };
+		840E1F44202995E70008A374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F02202995E70008A374 /* AppDelegate.swift */; };
+		840E1F45202995E70008A374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F02202995E70008A374 /* AppDelegate.swift */; };
+		840E1F46202995E70008A374 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F06202995E70008A374 /* Bundle+Extension.swift */; };
+		840E1F47202995E70008A374 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F06202995E70008A374 /* Bundle+Extension.swift */; };
+		840E1F48202995E70008A374 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F07202995E70008A374 /* Date+Extension.swift */; };
+		840E1F49202995E70008A374 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F07202995E70008A374 /* Date+Extension.swift */; };
+		840E1F4A202995E70008A374 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F08202995E70008A374 /* NSData+Extension.swift */; };
+		840E1F4B202995E70008A374 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F08202995E70008A374 /* NSData+Extension.swift */; };
+		840E1F4C202995E70008A374 /* NSObject+XZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0A202995E70008A374 /* NSObject+XZRuntime.m */; };
+		840E1F4D202995E70008A374 /* NSObject+XZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0A202995E70008A374 /* NSObject+XZRuntime.m */; };
+		840E1F4E202995E70008A374 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0B202995E70008A374 /* String+Extension.swift */; };
+		840E1F4F202995E70008A374 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0B202995E70008A374 /* String+Extension.swift */; };
+		840E1F50202995E70008A374 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0C202995E70008A374 /* UIBarButtonItem+Extension.swift */; };
+		840E1F51202995E70008A374 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0C202995E70008A374 /* UIBarButtonItem+Extension.swift */; };
+		840E1F52202995E70008A374 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0D202995E70008A374 /* UIButton+Extension.swift */; };
+		840E1F53202995E70008A374 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0D202995E70008A374 /* UIButton+Extension.swift */; };
+		840E1F54202995E70008A374 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0E202995E70008A374 /* UIColor+Extension.swift */; };
+		840E1F55202995E70008A374 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0E202995E70008A374 /* UIColor+Extension.swift */; };
+		840E1F56202995E70008A374 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0F202995E70008A374 /* UIImage+Extension.swift */; };
+		840E1F57202995E70008A374 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F0F202995E70008A374 /* UIImage+Extension.swift */; };
+		840E1F58202995E70008A374 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F10202995E70008A374 /* UIImageView+Extension.swift */; };
+		840E1F59202995E70008A374 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F10202995E70008A374 /* UIImageView+Extension.swift */; };
+		840E1F5A202995E70008A374 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F11202995E70008A374 /* UILabel+Extension.swift */; };
+		840E1F5B202995E70008A374 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F11202995E70008A374 /* UILabel+Extension.swift */; };
+		840E1F5C202995E70008A374 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F12202995E70008A374 /* UIScreen+Extension.swift */; };
+		840E1F5D202995E70008A374 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F12202995E70008A374 /* UIScreen+Extension.swift */; };
+		840E1F5E202995E70008A374 /* XZUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F15202995E70008A374 /* XZUserAccount.swift */; };
+		840E1F5F202995E70008A374 /* XZUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F15202995E70008A374 /* XZUserAccount.swift */; };
+		840E1F60202995E70008A374 /* XZNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F16202995E70008A374 /* XZNetworkManager+Extension.swift */; };
+		840E1F61202995E70008A374 /* XZNetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F16202995E70008A374 /* XZNetworkManager+Extension.swift */; };
+		840E1F62202995E70008A374 /* XZNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F17202995E70008A374 /* XZNetworkManager.swift */; };
+		840E1F63202995E70008A374 /* XZNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F17202995E70008A374 /* XZNetworkManager.swift */; };
+		840E1F64202995E70008A374 /* HMPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F1A202995E70008A374 /* HMPhotoBrowserAnimator.m */; };
+		840E1F65202995E70008A374 /* HMPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F1A202995E70008A374 /* HMPhotoBrowserAnimator.m */; };
+		840E1F66202995E70008A374 /* HMPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F1C202995E70008A374 /* HMPhotoBrowserController.m */; };
+		840E1F67202995E70008A374 /* HMPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F1C202995E70008A374 /* HMPhotoBrowserController.m */; };
+		840E1F68202995E70008A374 /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F1E202995E70008A374 /* HMPhotoBrowserPhotos.m */; };
+		840E1F69202995E70008A374 /* HMPhotoBrowserPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F1E202995E70008A374 /* HMPhotoBrowserPhotos.m */; };
+		840E1F6A202995E70008A374 /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F20202995E70008A374 /* HMPhotoProgressView.m */; };
+		840E1F6B202995E70008A374 /* HMPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F20202995E70008A374 /* HMPhotoProgressView.m */; };
+		840E1F6C202995E70008A374 /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F22202995E70008A374 /* HMPhotoViewerController.m */; };
+		840E1F6D202995E70008A374 /* HMPhotoViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F22202995E70008A374 /* HMPhotoViewerController.m */; };
+		840E1F6E202995E70008A374 /* XZCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F23202995E70008A374 /* XZCommon.swift */; };
+		840E1F6F202995E70008A374 /* XZCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F23202995E70008A374 /* XZCommon.swift */; };
+		840E1F70202995E70008A374 /* XZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F25202995E70008A374 /* XZLabel.swift */; };
+		840E1F71202995E70008A374 /* XZLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F25202995E70008A374 /* XZLabel.swift */; };
+		840E1F72202995E70008A374 /* XZMTRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F27202995E70008A374 /* XZMTRefreshView.swift */; };
+		840E1F73202995E70008A374 /* XZMTRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F27202995E70008A374 /* XZMTRefreshView.swift */; };
+		840E1F74202995E70008A374 /* XZMTRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F28202995E70008A374 /* XZMTRefreshView.xib */; };
+		840E1F75202995E70008A374 /* XZMTRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F28202995E70008A374 /* XZMTRefreshView.xib */; };
+		840E1F76202995E70008A374 /* XZPictureRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F29202995E70008A374 /* XZPictureRefreshView.xib */; };
+		840E1F77202995E70008A374 /* XZPictureRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F29202995E70008A374 /* XZPictureRefreshView.xib */; };
+		840E1F78202995E70008A374 /* XZRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F2A202995E70008A374 /* XZRefreshControl.swift */; };
+		840E1F79202995E70008A374 /* XZRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F2A202995E70008A374 /* XZRefreshControl.swift */; };
+		840E1F7A202995E70008A374 /* XZRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F2B202995E70008A374 /* XZRefreshView.swift */; };
+		840E1F7B202995E70008A374 /* XZRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F2B202995E70008A374 /* XZRefreshView.swift */; };
+		840E1F7C202995E70008A374 /* XZRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F2C202995E70008A374 /* XZRefreshView.xib */; };
+		840E1F7D202995E70008A374 /* XZRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F2C202995E70008A374 /* XZRefreshView.xib */; };
+		840E1F7E202995E70008A374 /* XZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F2F202995E70008A374 /* XZDiscoverViewController.swift */; };
+		840E1F7F202995E70008A374 /* XZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F2F202995E70008A374 /* XZDiscoverViewController.swift */; };
+		840E1F80202995E70008A374 /* XZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F31202995E70008A374 /* XZHomeViewController.swift */; };
+		840E1F81202995E70008A374 /* XZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F31202995E70008A374 /* XZHomeViewController.swift */; };
+		840E1F82202995E70008A374 /* XZNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F34202995E70008A374 /* XZNewFeatureView.swift */; };
+		840E1F83202995E70008A374 /* XZNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F34202995E70008A374 /* XZNewFeatureView.swift */; };
+		840E1F84202995E70008A374 /* XZNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F35202995E70008A374 /* XZNewFeatureView.xib */; };
+		840E1F85202995E70008A374 /* XZNewFeatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F35202995E70008A374 /* XZNewFeatureView.xib */; };
+		840E1F86202995E70008A374 /* XZWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F36202995E70008A374 /* XZWelcomeView.swift */; };
+		840E1F87202995E70008A374 /* XZWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F36202995E70008A374 /* XZWelcomeView.swift */; };
+		840E1F88202995E70008A374 /* XZWelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F37202995E70008A374 /* XZWelcomeView.xib */; };
+		840E1F89202995E70008A374 /* XZWelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F37202995E70008A374 /* XZWelcomeView.xib */; };
+		840E1F8A202995E70008A374 /* XZVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F39202995E70008A374 /* XZVisitorView.swift */; };
+		840E1F8B202995E70008A374 /* XZVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F39202995E70008A374 /* XZVisitorView.swift */; };
+		840E1F8C202995E70008A374 /* XZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F3A202995E70008A374 /* XZBaseViewController.swift */; };
+		840E1F8D202995E70008A374 /* XZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F3A202995E70008A374 /* XZBaseViewController.swift */; };
+		840E1F8E202995E70008A374 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F3C202995E70008A374 /* main.json */; };
+		840E1F8F202995E70008A374 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = 840E1F3C202995E70008A374 /* main.json */; };
+		840E1F90202995E70008A374 /* XZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F3D202995E70008A374 /* XZNavigationController.swift */; };
+		840E1F91202995E70008A374 /* XZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F3D202995E70008A374 /* XZNavigationController.swift */; };
+		840E1F92202995E70008A374 /* XZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F3E202995E70008A374 /* XZTabBarController.swift */; };
+		840E1F93202995E70008A374 /* XZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F3E202995E70008A374 /* XZTabBarController.swift */; };
+		840E1F94202995E70008A374 /* XZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F40202995E70008A374 /* XZMessageViewController.swift */; };
+		840E1F95202995E70008A374 /* XZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F40202995E70008A374 /* XZMessageViewController.swift */; };
+		840E1F96202995E70008A374 /* XZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F42202995E70008A374 /* XZProfileViewController.swift */; };
+		840E1F97202995E70008A374 /* XZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F42202995E70008A374 /* XZProfileViewController.swift */; };
+		8D26F4F244E8CF958623BAD7 /* Pods_XZHouseKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54845BD828D1541597BCF1F /* Pods_XZHouseKeeper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,15 +108,62 @@
 
 /* Begin PBXFileReference section */
 		840E1EDE20298B190008A374 /* XZHouseKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZHouseKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		840E1EE120298B190008A374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		840E1EE320298B190008A374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		840E1EE620298B190008A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840E1EE820298B190008A374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		840E1EEB20298B190008A374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840E1EED20298B190008A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840E1EF220298B190008A374 /* XZHouseKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZHouseKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E1EF620298B190008A374 /* XZHouseKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZHouseKeeperTests.swift; sourceTree = "<group>"; };
 		840E1EF820298B190008A374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840E1F02202995E70008A374 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840E1F06202995E70008A374 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		840E1F07202995E70008A374 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		840E1F08202995E70008A374 /* NSData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Extension.swift"; sourceTree = "<group>"; };
+		840E1F09202995E70008A374 /* NSObject+XZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XZRuntime.h"; sourceTree = "<group>"; };
+		840E1F0A202995E70008A374 /* NSObject+XZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XZRuntime.m"; sourceTree = "<group>"; };
+		840E1F0B202995E70008A374 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		840E1F0C202995E70008A374 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		840E1F0D202995E70008A374 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		840E1F0E202995E70008A374 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		840E1F0F202995E70008A374 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		840E1F10202995E70008A374 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		840E1F11202995E70008A374 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		840E1F12202995E70008A374 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		840E1F15202995E70008A374 /* XZUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZUserAccount.swift; sourceTree = "<group>"; };
+		840E1F16202995E70008A374 /* XZNetworkManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XZNetworkManager+Extension.swift"; sourceTree = "<group>"; };
+		840E1F17202995E70008A374 /* XZNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZNetworkManager.swift; sourceTree = "<group>"; };
+		840E1F19202995E70008A374 /* HMPhotoBrowserAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserAnimator.h; sourceTree = "<group>"; };
+		840E1F1A202995E70008A374 /* HMPhotoBrowserAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserAnimator.m; sourceTree = "<group>"; };
+		840E1F1B202995E70008A374 /* HMPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserController.h; sourceTree = "<group>"; };
+		840E1F1C202995E70008A374 /* HMPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserController.m; sourceTree = "<group>"; };
+		840E1F1D202995E70008A374 /* HMPhotoBrowserPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoBrowserPhotos.h; sourceTree = "<group>"; };
+		840E1F1E202995E70008A374 /* HMPhotoBrowserPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoBrowserPhotos.m; sourceTree = "<group>"; };
+		840E1F1F202995E70008A374 /* HMPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoProgressView.h; sourceTree = "<group>"; };
+		840E1F20202995E70008A374 /* HMPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoProgressView.m; sourceTree = "<group>"; };
+		840E1F21202995E70008A374 /* HMPhotoViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPhotoViewerController.h; sourceTree = "<group>"; };
+		840E1F22202995E70008A374 /* HMPhotoViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPhotoViewerController.m; sourceTree = "<group>"; };
+		840E1F23202995E70008A374 /* XZCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZCommon.swift; sourceTree = "<group>"; };
+		840E1F25202995E70008A374 /* XZLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZLabel.swift; sourceTree = "<group>"; };
+		840E1F27202995E70008A374 /* XZMTRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZMTRefreshView.swift; sourceTree = "<group>"; };
+		840E1F28202995E70008A374 /* XZMTRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZMTRefreshView.xib; sourceTree = "<group>"; };
+		840E1F29202995E70008A374 /* XZPictureRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZPictureRefreshView.xib; sourceTree = "<group>"; };
+		840E1F2A202995E70008A374 /* XZRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZRefreshControl.swift; sourceTree = "<group>"; };
+		840E1F2B202995E70008A374 /* XZRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZRefreshView.swift; sourceTree = "<group>"; };
+		840E1F2C202995E70008A374 /* XZRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZRefreshView.xib; sourceTree = "<group>"; };
+		840E1F2F202995E70008A374 /* XZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZDiscoverViewController.swift; sourceTree = "<group>"; };
+		840E1F31202995E70008A374 /* XZHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZHomeViewController.swift; sourceTree = "<group>"; };
+		840E1F34202995E70008A374 /* XZNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZNewFeatureView.swift; sourceTree = "<group>"; };
+		840E1F35202995E70008A374 /* XZNewFeatureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZNewFeatureView.xib; sourceTree = "<group>"; };
+		840E1F36202995E70008A374 /* XZWelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZWelcomeView.swift; sourceTree = "<group>"; };
+		840E1F37202995E70008A374 /* XZWelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZWelcomeView.xib; sourceTree = "<group>"; };
+		840E1F39202995E70008A374 /* XZVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZVisitorView.swift; sourceTree = "<group>"; };
+		840E1F3A202995E70008A374 /* XZBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZBaseViewController.swift; sourceTree = "<group>"; };
+		840E1F3C202995E70008A374 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		840E1F3D202995E70008A374 /* XZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZNavigationController.swift; sourceTree = "<group>"; };
+		840E1F3E202995E70008A374 /* XZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZTabBarController.swift; sourceTree = "<group>"; };
+		840E1F40202995E70008A374 /* XZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZMessageViewController.swift; sourceTree = "<group>"; };
+		840E1F42202995E70008A374 /* XZProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZProfileViewController.swift; sourceTree = "<group>"; };
+		B95EC479231829417389E83E /* Pods-XZHouseKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZHouseKeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		D544F56B056DFCC013448325 /* Pods-XZHouseKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZHouseKeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		D54845BD828D1541597BCF1F /* Pods_XZHouseKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZHouseKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D26F4F244E8CF958623BAD7 /* Pods_XZHouseKeeper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +191,8 @@
 				840E1EE020298B190008A374 /* XZHouseKeeper */,
 				840E1EF520298B190008A374 /* XZHouseKeeperTests */,
 				840E1EDF20298B190008A374 /* Products */,
+				B7DA502F966CACD79DAAD57C /* Pods */,
+				9203EB25281CAD7D36CCEC87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +208,8 @@
 		840E1EE020298B190008A374 /* XZHouseKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				840E1EE120298B190008A374 /* AppDelegate.swift */,
-				840E1EE320298B190008A374 /* ViewController.swift */,
-				840E1EE520298B190008A374 /* Main.storyboard */,
+				840E1F01202995E70008A374 /* Class */,
 				840E1EE820298B190008A374 /* Assets.xcassets */,
-				840E1EEA20298B190008A374 /* LaunchScreen.storyboard */,
 				840E1EED20298B190008A374 /* Info.plist */,
 			);
 			path = XZHouseKeeper;
@@ -96,6 +224,222 @@
 			path = XZHouseKeeperTests;
 			sourceTree = "<group>";
 		};
+		840E1F01202995E70008A374 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F02202995E70008A374 /* AppDelegate.swift */,
+				840E1F03202995E70008A374 /* Model */,
+				840E1F04202995E70008A374 /* Tools */,
+				840E1F2D202995E70008A374 /* View */,
+				840E1F43202995E70008A374 /* ViewModel */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		840E1F03202995E70008A374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840E1F04202995E70008A374 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F05202995E70008A374 /* Extension */,
+				840E1F13202995E70008A374 /* Network */,
+				840E1F18202995E70008A374 /* PhotoBrowser */,
+				840E1F23202995E70008A374 /* XZCommon.swift */,
+				840E1F24202995E70008A374 /* XZLabel */,
+				840E1F26202995E70008A374 /* XZRefreshControl */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		840E1F05202995E70008A374 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F06202995E70008A374 /* Bundle+Extension.swift */,
+				840E1F07202995E70008A374 /* Date+Extension.swift */,
+				840E1F08202995E70008A374 /* NSData+Extension.swift */,
+				840E1F09202995E70008A374 /* NSObject+XZRuntime.h */,
+				840E1F0A202995E70008A374 /* NSObject+XZRuntime.m */,
+				840E1F0B202995E70008A374 /* String+Extension.swift */,
+				840E1F0C202995E70008A374 /* UIBarButtonItem+Extension.swift */,
+				840E1F0D202995E70008A374 /* UIButton+Extension.swift */,
+				840E1F0E202995E70008A374 /* UIColor+Extension.swift */,
+				840E1F0F202995E70008A374 /* UIImage+Extension.swift */,
+				840E1F10202995E70008A374 /* UIImageView+Extension.swift */,
+				840E1F11202995E70008A374 /* UILabel+Extension.swift */,
+				840E1F12202995E70008A374 /* UIScreen+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		840E1F13202995E70008A374 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F14202995E70008A374 /* Model */,
+				840E1F16202995E70008A374 /* XZNetworkManager+Extension.swift */,
+				840E1F17202995E70008A374 /* XZNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		840E1F14202995E70008A374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F15202995E70008A374 /* XZUserAccount.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840E1F18202995E70008A374 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F19202995E70008A374 /* HMPhotoBrowserAnimator.h */,
+				840E1F1A202995E70008A374 /* HMPhotoBrowserAnimator.m */,
+				840E1F1B202995E70008A374 /* HMPhotoBrowserController.h */,
+				840E1F1C202995E70008A374 /* HMPhotoBrowserController.m */,
+				840E1F1D202995E70008A374 /* HMPhotoBrowserPhotos.h */,
+				840E1F1E202995E70008A374 /* HMPhotoBrowserPhotos.m */,
+				840E1F1F202995E70008A374 /* HMPhotoProgressView.h */,
+				840E1F20202995E70008A374 /* HMPhotoProgressView.m */,
+				840E1F21202995E70008A374 /* HMPhotoViewerController.h */,
+				840E1F22202995E70008A374 /* HMPhotoViewerController.m */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		840E1F24202995E70008A374 /* XZLabel */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F25202995E70008A374 /* XZLabel.swift */,
+			);
+			path = XZLabel;
+			sourceTree = "<group>";
+		};
+		840E1F26202995E70008A374 /* XZRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F27202995E70008A374 /* XZMTRefreshView.swift */,
+				840E1F28202995E70008A374 /* XZMTRefreshView.xib */,
+				840E1F29202995E70008A374 /* XZPictureRefreshView.xib */,
+				840E1F2A202995E70008A374 /* XZRefreshControl.swift */,
+				840E1F2B202995E70008A374 /* XZRefreshView.swift */,
+				840E1F2C202995E70008A374 /* XZRefreshView.xib */,
+			);
+			path = XZRefreshControl;
+			sourceTree = "<group>";
+		};
+		840E1F2D202995E70008A374 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F2E202995E70008A374 /* Discover */,
+				840E1F30202995E70008A374 /* Home */,
+				840E1F32202995E70008A374 /* Main */,
+				840E1F3F202995E70008A374 /* Message */,
+				840E1F41202995E70008A374 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		840E1F2E202995E70008A374 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F2F202995E70008A374 /* XZDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		840E1F30202995E70008A374 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F31202995E70008A374 /* XZHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		840E1F32202995E70008A374 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F33202995E70008A374 /* NewFeature */,
+				840E1F38202995E70008A374 /* VisitorView */,
+				840E1F3A202995E70008A374 /* XZBaseViewController.swift */,
+				840E1F3B202995E70008A374 /* 主控制器 */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		840E1F33202995E70008A374 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F34202995E70008A374 /* XZNewFeatureView.swift */,
+				840E1F35202995E70008A374 /* XZNewFeatureView.xib */,
+				840E1F36202995E70008A374 /* XZWelcomeView.swift */,
+				840E1F37202995E70008A374 /* XZWelcomeView.xib */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		840E1F38202995E70008A374 /* VisitorView */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F39202995E70008A374 /* XZVisitorView.swift */,
+			);
+			path = VisitorView;
+			sourceTree = "<group>";
+		};
+		840E1F3B202995E70008A374 /* 主控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F3C202995E70008A374 /* main.json */,
+				840E1F3D202995E70008A374 /* XZNavigationController.swift */,
+				840E1F3E202995E70008A374 /* XZTabBarController.swift */,
+			);
+			path = "主控制器";
+			sourceTree = "<group>";
+		};
+		840E1F3F202995E70008A374 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F40202995E70008A374 /* XZMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		840E1F41202995E70008A374 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				840E1F42202995E70008A374 /* XZProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		840E1F43202995E70008A374 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9203EB25281CAD7D36CCEC87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D54845BD828D1541597BCF1F /* Pods_XZHouseKeeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DA502F966CACD79DAAD57C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B95EC479231829417389E83E /* Pods-XZHouseKeeper.debug.xcconfig */,
+				D544F56B056DFCC013448325 /* Pods-XZHouseKeeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +447,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840E1EFB20298B190008A374 /* Build configuration list for PBXNativeTarget "XZHouseKeeper" */;
 			buildPhases = (
+				BF14BFC718CC830DBF2C9FE8 /* [CP] Check Pods Manifest.lock */,
 				840E1EDA20298B190008A374 /* Sources */,
 				840E1EDB20298B190008A374 /* Frameworks */,
 				840E1EDC20298B190008A374 /* Resources */,
+				309327F26F823C3AB3D7234A /* [CP] Embed Pods Frameworks */,
+				DA66DB9609B2825328644F1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +526,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840E1EEC20298B190008A374 /* LaunchScreen.storyboard in Resources */,
+				840E1F8E202995E70008A374 /* main.json in Resources */,
+				840E1F74202995E70008A374 /* XZMTRefreshView.xib in Resources */,
+				840E1F7C202995E70008A374 /* XZRefreshView.xib in Resources */,
+				840E1F88202995E70008A374 /* XZWelcomeView.xib in Resources */,
+				840E1F84202995E70008A374 /* XZNewFeatureView.xib in Resources */,
+				840E1F76202995E70008A374 /* XZPictureRefreshView.xib in Resources */,
 				840E1EE920298B190008A374 /* Assets.xcassets in Resources */,
-				840E1EE720298B190008A374 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,18 +540,124 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840E1F8F202995E70008A374 /* main.json in Resources */,
+				840E1F85202995E70008A374 /* XZNewFeatureView.xib in Resources */,
+				840E1F75202995E70008A374 /* XZMTRefreshView.xib in Resources */,
+				840E1F89202995E70008A374 /* XZWelcomeView.xib in Resources */,
+				840E1F77202995E70008A374 /* XZPictureRefreshView.xib in Resources */,
+				840E1F7D202995E70008A374 /* XZRefreshView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309327F26F823C3AB3D7234A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF14BFC718CC830DBF2C9FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZHouseKeeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA66DB9609B2825328644F1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		840E1EDA20298B190008A374 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840E1EE420298B190008A374 /* ViewController.swift in Sources */,
-				840E1EE220298B190008A374 /* AppDelegate.swift in Sources */,
+				840E1F50202995E70008A374 /* UIBarButtonItem+Extension.swift in Sources */,
+				840E1F7E202995E70008A374 /* XZDiscoverViewController.swift in Sources */,
+				840E1F4C202995E70008A374 /* NSObject+XZRuntime.m in Sources */,
+				840E1F70202995E70008A374 /* XZLabel.swift in Sources */,
+				840E1F92202995E70008A374 /* XZTabBarController.swift in Sources */,
+				840E1F4E202995E70008A374 /* String+Extension.swift in Sources */,
+				840E1F44202995E70008A374 /* AppDelegate.swift in Sources */,
+				840E1F60202995E70008A374 /* XZNetworkManager+Extension.swift in Sources */,
+				840E1F68202995E70008A374 /* HMPhotoBrowserPhotos.m in Sources */,
+				840E1F48202995E70008A374 /* Date+Extension.swift in Sources */,
+				840E1F7A202995E70008A374 /* XZRefreshView.swift in Sources */,
+				840E1F72202995E70008A374 /* XZMTRefreshView.swift in Sources */,
+				840E1F8A202995E70008A374 /* XZVisitorView.swift in Sources */,
+				840E1F86202995E70008A374 /* XZWelcomeView.swift in Sources */,
+				840E1F6E202995E70008A374 /* XZCommon.swift in Sources */,
+				840E1F82202995E70008A374 /* XZNewFeatureView.swift in Sources */,
+				840E1F6C202995E70008A374 /* HMPhotoViewerController.m in Sources */,
+				840E1F66202995E70008A374 /* HMPhotoBrowserController.m in Sources */,
+				840E1F52202995E70008A374 /* UIButton+Extension.swift in Sources */,
+				840E1F78202995E70008A374 /* XZRefreshControl.swift in Sources */,
+				840E1F96202995E70008A374 /* XZProfileViewController.swift in Sources */,
+				840E1F64202995E70008A374 /* HMPhotoBrowserAnimator.m in Sources */,
+				840E1F80202995E70008A374 /* XZHomeViewController.swift in Sources */,
+				840E1F5E202995E70008A374 /* XZUserAccount.swift in Sources */,
+				840E1F58202995E70008A374 /* UIImageView+Extension.swift in Sources */,
+				840E1F90202995E70008A374 /* XZNavigationController.swift in Sources */,
+				840E1F4A202995E70008A374 /* NSData+Extension.swift in Sources */,
+				840E1F46202995E70008A374 /* Bundle+Extension.swift in Sources */,
+				840E1F6A202995E70008A374 /* HMPhotoProgressView.m in Sources */,
+				840E1F56202995E70008A374 /* UIImage+Extension.swift in Sources */,
+				840E1F94202995E70008A374 /* XZMessageViewController.swift in Sources */,
+				840E1F5A202995E70008A374 /* UILabel+Extension.swift in Sources */,
+				840E1F54202995E70008A374 /* UIColor+Extension.swift in Sources */,
+				840E1F62202995E70008A374 /* XZNetworkManager.swift in Sources */,
+				840E1F8C202995E70008A374 /* XZBaseViewController.swift in Sources */,
+				840E1F5C202995E70008A374 /* UIScreen+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +665,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840E1F51202995E70008A374 /* UIBarButtonItem+Extension.swift in Sources */,
+				840E1F7F202995E70008A374 /* XZDiscoverViewController.swift in Sources */,
+				840E1F4D202995E70008A374 /* NSObject+XZRuntime.m in Sources */,
+				840E1F71202995E70008A374 /* XZLabel.swift in Sources */,
+				840E1F93202995E70008A374 /* XZTabBarController.swift in Sources */,
+				840E1F4F202995E70008A374 /* String+Extension.swift in Sources */,
+				840E1F45202995E70008A374 /* AppDelegate.swift in Sources */,
+				840E1F61202995E70008A374 /* XZNetworkManager+Extension.swift in Sources */,
+				840E1F69202995E70008A374 /* HMPhotoBrowserPhotos.m in Sources */,
+				840E1F49202995E70008A374 /* Date+Extension.swift in Sources */,
+				840E1F7B202995E70008A374 /* XZRefreshView.swift in Sources */,
+				840E1F73202995E70008A374 /* XZMTRefreshView.swift in Sources */,
+				840E1F8B202995E70008A374 /* XZVisitorView.swift in Sources */,
+				840E1F87202995E70008A374 /* XZWelcomeView.swift in Sources */,
+				840E1F6F202995E70008A374 /* XZCommon.swift in Sources */,
+				840E1F83202995E70008A374 /* XZNewFeatureView.swift in Sources */,
+				840E1F6D202995E70008A374 /* HMPhotoViewerController.m in Sources */,
+				840E1F67202995E70008A374 /* HMPhotoBrowserController.m in Sources */,
+				840E1F53202995E70008A374 /* UIButton+Extension.swift in Sources */,
+				840E1F79202995E70008A374 /* XZRefreshControl.swift in Sources */,
+				840E1F97202995E70008A374 /* XZProfileViewController.swift in Sources */,
+				840E1F65202995E70008A374 /* HMPhotoBrowserAnimator.m in Sources */,
+				840E1F81202995E70008A374 /* XZHomeViewController.swift in Sources */,
+				840E1F5F202995E70008A374 /* XZUserAccount.swift in Sources */,
+				840E1F59202995E70008A374 /* UIImageView+Extension.swift in Sources */,
+				840E1F91202995E70008A374 /* XZNavigationController.swift in Sources */,
+				840E1F4B202995E70008A374 /* NSData+Extension.swift in Sources */,
+				840E1F47202995E70008A374 /* Bundle+Extension.swift in Sources */,
 				840E1EF720298B190008A374 /* XZHouseKeeperTests.swift in Sources */,
+				840E1F6B202995E70008A374 /* HMPhotoProgressView.m in Sources */,
+				840E1F57202995E70008A374 /* UIImage+Extension.swift in Sources */,
+				840E1F95202995E70008A374 /* XZMessageViewController.swift in Sources */,
+				840E1F5B202995E70008A374 /* UILabel+Extension.swift in Sources */,
+				840E1F55202995E70008A374 /* UIColor+Extension.swift in Sources */,
+				840E1F63202995E70008A374 /* XZNetworkManager.swift in Sources */,
+				840E1F8D202995E70008A374 /* XZBaseViewController.swift in Sources */,
+				840E1F5D202995E70008A374 /* UIScreen+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +714,6 @@
 			targetProxy = 840E1EF320298B190008A374 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		840E1EE520298B190008A374 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840E1EE620298B190008A374 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		840E1EEA20298B190008A374 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840E1EEB20298B190008A374 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		840E1EF920298B190008A374 /* Debug */ = {
@@ -351,11 +825,14 @@
 		};
 		840E1EFC20298B190008A374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95EC479231829417389E83E /* Pods-XZHouseKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM8C4U4YF7;
 				INFOPLIST_FILE = XZHouseKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZHouseKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,11 +843,14 @@
 		};
 		840E1EFD20298B190008A374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D544F56B056DFCC013448325 /* Pods-XZHouseKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM8C4U4YF7;
 				INFOPLIST_FILE = XZHouseKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XZ.XZHouseKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
