@@ -11,12 +11,12 @@ import UIKit
 // 所有主控制器的基类控制器
 class XZBaseViewController: UIViewController {
 
-    /// 表格视图 - 如果用户不登陆，就不创建
-    var tableView: UITableView?
-    /// 刷新控件
-    var refreshControl: XZRefreshControl?
-    // 上拉加载标记
-    var isPullUp = false
+//    /// 表格视图 - 如果用户不登陆，就不创建
+//    var tableView: UITableView?
+//    /// 刷新控件
+//    var refreshControl: XZRefreshControl?
+//    // 上拉加载标记
+//    var isPullUp = false
     
     // 访客视图的信息字典 [imageName / message]
     var visitorInfo:[String: String]?
@@ -39,8 +39,8 @@ class XZBaseViewController: UIViewController {
     }
     
     @objc func loadData() {
-        // 如果子类不实现任何方法，默认关闭刷新控件
-        refreshControl?.endRefreshing()
+//        // 如果子类不实现任何方法，默认关闭刷新控件
+//        refreshControl?.endRefreshing()
     }
     
     /// 重写 title 的didSet
@@ -88,38 +88,38 @@ extension XZBaseViewController {
     }
 }
 
-// MARK: - 设置tableView的数据源和代理
-extension XZBaseViewController: UITableViewDataSource,UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-         return 0
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
-    }
-    
-    // 在显示最后一行的时候，往上拉加载
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        // 当前row
-        let row = indexPath.row
-        // 最后一个section
-        let section = tableView.numberOfSections - 1
-        
-        if row < 0 || section < 0 {
-            return
-        }
-        // 最后一个section的 最后一行
-        let count = tableView.numberOfRows(inSection: section) - 1
-        
-        // 最后一行 且 不是在上提加载
-        if count == row && !isPullUp  {
-            isPullUp = true
-            loadData()
-        }
-    }
-    
-}
+//// MARK: - 设置tableView的数据源和代理
+//extension XZBaseViewController: UITableViewDataSource,UITableViewDelegate {
+//
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//         return 0
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        return UITableViewCell()
+//    }
+//
+//    // 在显示最后一行的时候，往上拉加载
+//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        // 当前row
+//        let row = indexPath.row
+//        // 最后一个section
+//        let section = tableView.numberOfSections - 1
+//
+//        if row < 0 || section < 0 {
+//            return
+//        }
+//        // 最后一个section的 最后一行
+//        let count = tableView.numberOfRows(inSection: section) - 1
+//
+//        // 最后一行 且 不是在上提加载
+//        if count == row && !isPullUp  {
+//            isPullUp = true
+//            loadData()
+//        }
+//    }
+//
+//}
 
 // MARK: - 设置界面
 extension XZBaseViewController {
@@ -140,33 +140,33 @@ extension XZBaseViewController {
     /// 设置表格视图
     // 子类重写此方法，因为子类不需要关心用户登录之前的逻辑
     @objc func setupTableView() {
-        tableView = UITableView.init(frame: view.bounds, style: .plain)
-        
-        view.addSubview(tableView!)
-        
-//        view.insertSubview(tableView!, belowSubview: navigationBar)
-        
-        // 设置数据源&代理 -> 目的：子类直接实现数据源方法
-        tableView?.dataSource = self
-        tableView?.delegate = self
-        
-        // 设置内容缩进 OC navigationBar.bounds.size.height
-        // top: navigationBar.bounds.height
-        // bottom: tabBarController?.tabBar.bounds.height ?? 49
-//        tableView?.contentInset = UIEdgeInsets(top: 20,
-//                                               left: 0,
-//                                               bottom: 0,
-//                                               right: 0)
-        // 修改右侧指示器的缩进 - 强行解包是为了拿到一个必有的 inset
-        tableView?.scrollIndicatorInsets = tableView!.contentInset
-        
-        // 设置刷新控件
-        // 1>实例化刷新控件
-        refreshControl = XZRefreshControl()
-        // 2>添加到表格视图
-        tableView?.addSubview(refreshControl!)
-        // 3>添加监听方法
-        refreshControl?.addTarget(self, action: #selector(loadData), for: .valueChanged)
+//        tableView = UITableView.init(frame: view.bounds, style: .plain)
+//
+//        view.addSubview(tableView!)
+//
+////        view.insertSubview(tableView!, belowSubview: navigationBar)
+//
+//        // 设置数据源&代理 -> 目的：子类直接实现数据源方法
+//        tableView?.dataSource = self
+//        tableView?.delegate = self
+//
+//        // 设置内容缩进 OC navigationBar.bounds.size.height
+//        // top: navigationBar.bounds.height
+//        // bottom: tabBarController?.tabBar.bounds.height ?? 49
+////        tableView?.contentInset = UIEdgeInsets(top: 20,
+////                                               left: 0,
+////                                               bottom: 0,
+////                                               right: 0)
+//        // 修改右侧指示器的缩进 - 强行解包是为了拿到一个必有的 inset
+//        tableView?.scrollIndicatorInsets = tableView!.contentInset
+//
+//        // 设置刷新控件
+//        // 1>实例化刷新控件
+//        refreshControl = XZRefreshControl()
+//        // 2>添加到表格视图
+//        tableView?.addSubview(refreshControl!)
+//        // 3>添加监听方法
+//        refreshControl?.addTarget(self, action: #selector(loadData), for: .valueChanged)
     }
     
     /// 设置访客视图

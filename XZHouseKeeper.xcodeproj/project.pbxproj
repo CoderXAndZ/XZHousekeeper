@@ -93,6 +93,8 @@
 		840E1F95202995E70008A374 /* XZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F40202995E70008A374 /* XZMessageViewController.swift */; };
 		840E1F96202995E70008A374 /* XZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F42202995E70008A374 /* XZProfileViewController.swift */; };
 		840E1F97202995E70008A374 /* XZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E1F42202995E70008A374 /* XZProfileViewController.swift */; };
+		8498B227202AC414003B7B15 /* XZHomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498B226202AC414003B7B15 /* XZHomeTitleView.swift */; };
+		8498B228202AC414003B7B15 /* XZHomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498B226202AC414003B7B15 /* XZHomeTitleView.swift */; };
 		8D26F4F244E8CF958623BAD7 /* Pods_XZHouseKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54845BD828D1541597BCF1F /* Pods_XZHouseKeeper.framework */; };
 /* End PBXBuildFile section */
 
@@ -161,6 +163,7 @@
 		840E1F3E202995E70008A374 /* XZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZTabBarController.swift; sourceTree = "<group>"; };
 		840E1F40202995E70008A374 /* XZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZMessageViewController.swift; sourceTree = "<group>"; };
 		840E1F42202995E70008A374 /* XZProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZProfileViewController.swift; sourceTree = "<group>"; };
+		8498B226202AC414003B7B15 /* XZHomeTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZHomeTitleView.swift; sourceTree = "<group>"; };
 		B95EC479231829417389E83E /* Pods-XZHouseKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZHouseKeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper.debug.xcconfig"; sourceTree = "<group>"; };
 		D544F56B056DFCC013448325 /* Pods-XZHouseKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZHouseKeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZHouseKeeper/Pods-XZHouseKeeper.release.xcconfig"; sourceTree = "<group>"; };
 		D54845BD828D1541597BCF1F /* Pods_XZHouseKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XZHouseKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -335,8 +338,8 @@
 		840E1F2D202995E70008A374 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				840E1F2E202995E70008A374 /* Discover */,
 				840E1F30202995E70008A374 /* Home */,
+				840E1F2E202995E70008A374 /* Discover */,
 				840E1F32202995E70008A374 /* Main */,
 				840E1F3F202995E70008A374 /* Message */,
 				840E1F41202995E70008A374 /* Profile */,
@@ -356,6 +359,7 @@
 			isa = PBXGroup;
 			children = (
 				840E1F31202995E70008A374 /* XZHomeViewController.swift */,
+				8498B226202AC414003B7B15 /* XZHomeTitleView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -647,6 +651,7 @@
 				840E1F80202995E70008A374 /* XZHomeViewController.swift in Sources */,
 				840E1F5E202995E70008A374 /* XZUserAccount.swift in Sources */,
 				840E1F58202995E70008A374 /* UIImageView+Extension.swift in Sources */,
+				8498B227202AC414003B7B15 /* XZHomeTitleView.swift in Sources */,
 				840E1F90202995E70008A374 /* XZNavigationController.swift in Sources */,
 				840E1F4A202995E70008A374 /* NSData+Extension.swift in Sources */,
 				840E1F46202995E70008A374 /* Bundle+Extension.swift in Sources */,
@@ -689,6 +694,7 @@
 				840E1F65202995E70008A374 /* HMPhotoBrowserAnimator.m in Sources */,
 				840E1F81202995E70008A374 /* XZHomeViewController.swift in Sources */,
 				840E1F5F202995E70008A374 /* XZUserAccount.swift in Sources */,
+				8498B228202AC414003B7B15 /* XZHomeTitleView.swift in Sources */,
 				840E1F59202995E70008A374 /* UIImageView+Extension.swift in Sources */,
 				840E1F91202995E70008A374 /* XZNavigationController.swift in Sources */,
 				840E1F4B202995E70008A374 /* NSData+Extension.swift in Sources */,
